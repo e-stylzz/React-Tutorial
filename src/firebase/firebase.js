@@ -1,5 +1,4 @@
 import * as firebase from 'firebase';
-import { isString } from 'util';
 
 const config = {
     apiKey: process.env.FIREBASE_API_KEY,
@@ -9,8 +8,6 @@ const config = {
     storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
     messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
 };
-
-console.log('Config: ', config);
 
 firebase.initializeApp(config);
 
