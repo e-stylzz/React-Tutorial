@@ -2,14 +2,20 @@
 //em
 //rem
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
+    color: $dark-grey;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
     font-size: $m-size;
     background: white;
+    line-height: 1.6;
 }
 
 button {
